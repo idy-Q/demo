@@ -10,37 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abbf6ae3-2ce2-46f8-8934-1f27b36c6181" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/book/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jsp09_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jsp09_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsp09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jsp09.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/AddBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/DeleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/DeleteBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/EditBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/EditBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/FindBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/FindBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/UpdateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/servlet/UpdateBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/util/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/WEB-INF/classes/com/book/util/JDBCUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/editBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/listBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_war_exploded/listBook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/AddBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/DeleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/DeleteBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/EditBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/EditBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/FindBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/FindBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/UpdateBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/UpdateBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/util/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jsp09/com/book/util/JDBCUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/AddBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/DeleteBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/EditBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/EditBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/FindBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/FindBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/UpdateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/UpdateBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/editBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/listBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/listBook.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767512392844</updated>
-      <workItem from="1767512394087" duration="5177000" />
+      <workItem from="1767512394087" duration="6406000" />
     </task>
     <servers />
   </component>

@@ -1,20 +1,21 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: TR
-  Date: 2025/11/21/0021
-  Time: 16:22
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>图书管理系统</title>
+    <title>系统首页</title>
+    <style>
+        body { text-align: center; margin-top: 100px; font-family: sans-serif; }
+        a { text-decoration: none; font-size: 20px; color: blue; }
+        a:hover { color: red; }
+    </style>
 </head>
 <body>
-<h1>欢迎使用图书管理系统</h1>
-<ul>
-  <li><a href="findBook">查看图书列表</a></li>
-  <li><a href="addBook.jsp">添加新图书</a></li>
-</ul>
+
+<%-- 1. 标题改这里 --%>
+<h1>欢迎使用信息管理系统</h1>
+
+<h3>
+    <a href="findBook">👉 点击进入系统管理</a>
+</h3>
+
 </body>
 </html>
