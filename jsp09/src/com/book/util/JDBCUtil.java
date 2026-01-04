@@ -6,7 +6,7 @@ public class JDBCUtil {
     private static String driverName = "com.mysql.cj.jdbc.Driver";
     private static String url = "jdbc:mysql://localhost:3306/book_manage?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8";
     private static String user = "root";
-    private static String password = "123456";
+    private static String password = "12321";
 
     static {
         try {
