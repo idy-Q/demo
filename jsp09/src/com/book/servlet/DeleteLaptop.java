@@ -1,6 +1,6 @@
 package com.book.servlet;
 
-import com.book.dao.BookDao;
+import com.book.dao.LaptopDao;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,15 +8,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/deleteBook")
-public class DeleteBook extends HttpServlet {
-    private BookDao dao = new BookDao();
+@WebServlet("/deleteLaptop")
+public class DeleteLaptop extends HttpServlet {
+    private LaptopDao dao = new LaptopDao();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String idStr = request.getParameter("id");
         if(idStr != null){
             dao.delete(Integer.parseInt(idStr));
         }
-        response.sendRedirect("findBook");
+        response.sendRedirect("findLaptop");
     }
 }

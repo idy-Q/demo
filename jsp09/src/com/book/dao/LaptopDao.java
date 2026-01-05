@@ -1,6 +1,6 @@
 package com.book.dao;
 
-import com.book.model.Book;
+import com.book.model.Laptop;
 import com.book.util.JDBCUtil;
 
 import java.sql.Connection;
@@ -9,35 +9,36 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookDao {
+public class LaptopDao {
 
     // ================= 考试时只改这里 =================
     // 1. 修改表名和字段
-    private static final String TABLE_NAME = "tb_book";
+    private static final String TABLE_NAME = "tb_laptop";
 
     // 2. 准备好 SQL 模板 (考试时甚至不用动结构，只改字段名)
     private static final String SQL_FIND_ALL = "SELECT * FROM " + TABLE_NAME;
-    private static final String SQL_FIND_BY_KEYWORD = "SELECT * FROM " + TABLE_NAME + " WHERE name LIKE ? OR isbn LIKE ?";
-    private static final String SQL_INSERT = "INSERT INTO " + TABLE_NAME + " (isbn, name, price) VALUES (?, ?, ?)";
+    private static final String SQL_FIND_BY_KEYWORD = "SELECT * FROM " + TABLE_NAME + " WHERE brand LIKE ? OR model_no LIKE ?";
+    private static final String SQL_INSERT = "INSERT INTO " + TABLE_NAME + " (model_no, brand, price, stock) VALUES (?, ?, ?, ?)";
     private static final String SQL_DELETE = "DELETE FROM " + TABLE_NAME + " WHERE id = ?";
     private static final String SQL_GET_BY_ID = "SELECT * FROM " + TABLE_NAME + " WHERE id = ?";
-    private static final String SQL_UPDATE = "UPDATE " + TABLE_NAME + " SET isbn = ?, name = ?, price = ? WHERE id = ?";
+    private static final String SQL_UPDATE = "UPDATE " + TABLE_NAME + " SET model_no = ?, brand = ?, price = ?, stock = ? WHERE id = ?";
     // =================================================
 
     // 封装一个从 ResultSet 获取对象的方法，避免重复代码
     // 考试时：修改这里的 set 方法
-    private Book mapToModel(ResultSet rs) throws Exception {
-        Book book = new Book();
-        book.setId(rs.getInt("id"));
-        book.setIsbn(rs.getString("isbn"));
-        book.setName(rs.getString("name"));
-        book.setPrice(rs.getFloat("price"));
-        return book;
+    private Laptop mapToModel(ResultSet rs) throws Exception {
+        Laptop laptop = new Laptop();
+        laptop.setId(rs.getInt("id"));
+        laptop.setModelNo(rs.getString("model_no"));
+        laptop.setBrand(rs.getString("brand"));
+        laptop.setPrice(rs.getFloat("price"));
+        laptop.setStock(rs.getInt("stock"));
+        return laptop;
     }
 
     // 1. 查询列表 (包含搜索)
-    public List<Book> findList(String keyword) {
-        List<Book> list = new ArrayList<>();
+    public List<Laptop> findList(String keyword) {
+        List<Laptop> list = new ArrayList<>();
         Connection conn = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -63,16 +64,17 @@ public class BookDao {
     }
 
     // 2. 添加
-    public boolean add(Book book) {
+    public boolean add(Laptop laptop) {
         Connection conn = null;
         PreparedStatement ps = null;
         try {
             conn = JDBCUtil.getConnection();
             ps = conn.prepareStatement(SQL_INSERT);
             // 考试时：修改这里的参数顺序
-            ps.setString(1, book.getIsbn());
-            ps.setString(2, book.getName());
-            ps.setFloat(3, book.getPrice());
+            ps.setString(1, laptop.getModelNo());
+            ps.setString(2, laptop.getBrand());
+            ps.setFloat(3, laptop.getPrice());
+            ps.setInt(4, laptop.getStock());
             return ps.executeUpdate() > 0;
         } catch (Exception e) {
             e.printStackTrace();
@@ -100,7 +102,7 @@ public class BookDao {
     }
 
     // 4. 根据ID查询 (用于修改回显)
-    public Book getById(int id) {
+    public Laptop getById(int id) {
         Connection conn = null;
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -121,17 +123,18 @@ public class BookDao {
     }
 
     // 5. 更新
-    public boolean update(Book book) {
+    public boolean update(Laptop laptop) {
         Connection conn = null;
         PreparedStatement ps = null;
         try {
             conn = JDBCUtil.getConnection();
             ps = conn.prepareStatement(SQL_UPDATE);
             // 考试时：修改这里的参数顺序
-            ps.setString(1, book.getIsbn());
-            ps.setString(2, book.getName());
-            ps.setFloat(3, book.getPrice());
-            ps.setInt(4, book.getId()); // ID 通常是最后一个
+            ps.setString(1, laptop.getModelNo());
+            ps.setString(2, laptop.getBrand());
+            ps.setFloat(3, laptop.getPrice());
+            ps.setInt(4, laptop.getStock());
+            ps.setInt(5, laptop.getId()); // ID 通常是最后一个
             return ps.executeUpdate() > 0;
         } catch (Exception e) {
             e.printStackTrace();

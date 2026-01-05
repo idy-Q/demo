@@ -1,7 +1,7 @@
 package com.book.servlet;
 
-import com.book.dao.BookDao;
-import com.book.model.Book;
+import com.book.dao.LaptopDao;
+import com.book.model.Laptop;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/findBook")
-public class FindBook extends HttpServlet {
+@WebServlet("/findLaptop")
+public class FindLaptop extends HttpServlet {
     // 实例化 DAO
-    private BookDao dao = new BookDao();
+    private LaptopDao dao = new LaptopDao();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
@@ -23,10 +23,10 @@ public class FindBook extends HttpServlet {
         String keyword = request.getParameter("keyword");
 
         // 2. 调用 DAO 一行代码搞定
-        List<Book> list = dao.findList(keyword);
+        List<Laptop> list = dao.findList(keyword);
 
         // 3. 存数据并转发
-        request.setAttribute("bookList", list);
-        request.getRequestDispatcher("/listBook.jsp").forward(request, response);
+        request.setAttribute("laptopList", list);
+        request.getRequestDispatcher("/listLaptop.jsp").forward(request, response);
     }
 }

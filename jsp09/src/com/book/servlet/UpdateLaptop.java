@@ -1,7 +1,8 @@
 package com.book.servlet;
 
-import com.book.dao.BookDao;
-import com.book.model.Book;
+import com.book.dao.LaptopDao;
+import com.book.model.Laptop;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,10 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/updateBook")
-public class UpdateBook extends HttpServlet {
+@WebServlet("/updateLaptop")
+public class UpdateLaptop extends HttpServlet {
 
-    private BookDao dao = new BookDao();
+    private LaptopDao dao = new LaptopDao();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
@@ -20,26 +21,28 @@ public class UpdateBook extends HttpServlet {
         // 1. 获取所有参数 (记得包含隐藏的 id)
         // 考试时：这里的参数名要根据你的题目改
         String idStr = request.getParameter("id");
-        String isbn = request.getParameter("isbn");
-        String name = request.getParameter("name");
+        String modelNo = request.getParameter("modelNo");
+        String brand = request.getParameter("brand");
         String priceStr = request.getParameter("price");
+        String stock = request.getParameter("stock");
 
         // 2. 封装成对象
-        Book book = new Book();
+        Laptop laptop = new Laptop();
         try {
-            book.setId(Integer.parseInt(idStr));
-            book.setIsbn(isbn);
-            book.setName(name);
-            book.setPrice(Float.parseFloat(priceStr));
+            laptop.setId(Integer.parseInt(idStr));
+            laptop.setModelNo(modelNo);
+            laptop.setBrand(brand);
+            laptop.setPrice(Float.parseFloat(priceStr));
+            laptop.setStock(Integer.parseInt(stock));
 
             // 3. 调用 DAO 更新
-            dao.update(book);
+            dao.update(laptop);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         // 4. 改完回首页
-        response.sendRedirect("findBook");
+        response.sendRedirect("findLaptop");
     }
 }
