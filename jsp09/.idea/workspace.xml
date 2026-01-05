@@ -10,24 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98dc15d2-2e79-4b38-a272-7fa5010c23af" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/jsp09_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/book/model/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jsp09_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/dao/LaptopDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/model/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/AddLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/DeleteLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/EditBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/EditLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/FindBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/FindLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/UpdateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/servlet/UpdateLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/book/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/book/util/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addLaptop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/editLaptop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/listBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/listLaptop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/dao/LaptopDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/model/Laptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/servlet/AddLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/servlet/DeleteLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/servlet/EditLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/servlet/FindLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/servlet/UpdateLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/WEB-INF/classes/com/book/util/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/editLaptop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jsp09_Web_exploded/editLaptop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/dao/LaptopDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/model/Laptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/AddLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/DeleteLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/EditLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/FindLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/servlet/UpdateLaptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jsp09/com/book/util/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/dao/LaptopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/dao/LaptopDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/model/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/model/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/AddLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/servlet/AddLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/DeleteLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/servlet/DeleteLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/EditLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/servlet/EditLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/FindLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/servlet/FindLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/servlet/UpdateLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/servlet/UpdateLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/book/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/laptop/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editLaptop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/editLaptop.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +46,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "idy-Q"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;idy-Q&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/idy-Q/Playground.git",
+    "url": "https://github.com/idy-Q/demo.git",
     "accountId": "f2ebebea-c82b-44eb-8bf3-30779bea2e38"
   }
 }]]></component>
@@ -56,36 +65,39 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="37os7ssOYgotFScBlqKhyqNcWcY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat 服务器.Tomcat 9.0.93.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/guo05/Desktop/期末复习/JSP_DEMO/Playground/jsp09",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat 服务器.Tomcat 9.0.93.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guo05/Desktop/期末复习/JSP_DEMO/Playground/jsp09&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationStatuses">
       <map>

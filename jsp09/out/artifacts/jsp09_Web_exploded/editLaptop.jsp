@@ -5,26 +5,26 @@
 <h1>修改信息</h1>
 
 <form action="updateLaptop" method="post">
-    <input type="hidden" name="id" value="${laptop.id}">
+    <input type="hidden" name="id" value="${laptopList.id}">
 
     <div>
         <label>型号：</label>
-        <input type="text" name="modelNo" value="${laptop.modelNo}">
+        <input type="text" name="modelNo" value="${laptopList.modelNo}">
     </div>
 
     <div>
         <label>品牌：</label>
-        <input type="text" name="brand" value="${laptop.brand}">
+        <input type="text" name="brand" value="${laptopList.brand}">
     </div>
 
     <div>
         <label>价格：</label>
-        <input type="text" name="price" value="${laptop.price}">
+        <input type="text" name="price" value="${laptopList.price}">
     </div>
 
     <div>
         <label>库存：</label>
-        <input type="text" name="stock" value="${laptop.stock}">
+        <input type="text" name="stock" value="${laptopList.stock}">
     </div>
 
     <br>
